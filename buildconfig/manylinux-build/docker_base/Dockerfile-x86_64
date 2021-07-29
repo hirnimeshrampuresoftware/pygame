@@ -15,7 +15,8 @@ RUN rpm --import /tmp/RPM-GPG-KEY.dag.txt
 RUN yum install -y zlib-devel libjpeg-devel libX11-devel\
     mesa-libGLU-devel audiofile-devel \
     cmake java-1.7.0-openjdk-devel jpackage-utils libtiff-devel \
-    mikmod-devel smpeg-devel giflib-devel dbus-devel \
+    #mikmod-devel smpeg-devel 
+    giflib-devel dbus-devel \
     pulseaudio-libs-devel xz subversion dejavu-sans-fonts fontconfig \
     libXcursor-devel libXi-devel libXxf86vm-devel \
     libXrandr-devel libXinerama-devel libXcomposite-devel mesa-libGLU-devel xz
